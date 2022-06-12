@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> This is our first web page </title>
+</head>
+<body>
+<header> Education and projects </header>
+<main>
+    <section> Scholling and sports </section> 
+    <!-- - section tag used to define section -->
+    <section> Projects and papers written. </section>
+    <article> This is  an article defining article tag </article>
+    <aside> This is aside tag used to display contect not to be used in Seo. </aside>
+</main>
+
+ <!-- This is body tag and contains multiple tags that is the main data that is used in the website--> 
+ <!-- we can even use crt + / to comment out or turn code into comments   -->
+<p> This is the first paragraph </p>
+<p> This is the second paragraph</p>
+<H1> Most important heading </H1>
+<H2> 2nd most imporatnt heading</H2>
+<H3> 3rd most imporatnt heading</H3>
+<H4> 4th important heading</H4>
+<H5> 5th imporatnat heading </H5>
+<H6> 6th important headings</H6>
+<!-- This is strike tag used to write text with a line peircing it from middle Eg :Jai ho -->
+<strike> Jai ho </strike><br>
+<a href="https://www.youtube.com/"> Youtube </a>
+ <br>
+<!-- this is anchor tag used to link other pages to the web page  -->
+ <a href="www.google.com"> Google </a>
+ <br>
+ <a href ="2nd page.html"> Go to 2nd page </a>
+<br>
+<br>
+<p> <b> this will create bols text </b> <br> <i> And this one helps in italic text </i> <br> <u> Lets underline buddy </u></p>
+<big> this tag shows big text </big> <br><hr>
+<SMall> this one here is for small text</SMall>
+<!-- subscript tag -->
+<p> H <sub>2 </sub> O</p> 
+<!-- superscript tag  -->
+<p> 10<sup> 2</sup></p>
+<!-- pre tag used for paragraph with spaces and tags -->
+<pre> 
+<b>  we can write text with    spaces and     html with    take into consideration the spaces we have putted in the text. </b>
+</pre>
+<!-- Semantic tag tag used for layout and are clear by name -->
+<!-- 3 semantic tag are header fotter and main -->
+<footer> 
+    <h3> Contact details </h3>
+</footer>
+<!-- this is the tag used for inserting image  -->
+<!-- <a href ="Adress of the image"target="main"> Name of the image </a> -->
+<a href="www.google.com"target="main"> Google</a>
+<a href="http/:google.com"target="main"> <img src="https://th.bing.com/th/id/OIP.UK1f0YpfRtACudMbOnmAiwHaFR?w=239&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" height="200"> Google </a>
+<div> This tag blocks whole width and is non semantic tag </div>
+<span> take the area as required by the text.</span><br>
+<!-- Marquee tag is used to float text/image from right to left -->
+<marquee> Floating </marquee>
+<marquee><a href="http/:google.com"target="main"> <img src="https://th.bing.com/th/id/OIP.UK1f0YpfRtACudMbOnmAiwHaFR?w=239&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" height="200"> Google </a> </marquee>
+
+
+
+<!-- Attributes can be used to give alignment, Color , Etc. -->
+<!-- Here we have used bg color attribute to give color to page -->
+<body bgcolor="Blue"> </body>
+<!-- here style attribute is used to give alignment to text  -->
+<p style ="text-align:center"> This is the champion text </p>
+<!-- here we have used font attribute  -->
+<h1 ="font-family:Timesnewroman"> This heading is lit or dope </h1>
+<img src="C:\Users\Sumit Kandpal\Desktop\Sumit @/R.jpeg"alt="Image"> Image </a>
+
+<!-- Now we have list tag and table tag  -->
+<!-- List tag  -->
+ <!-- list are of 2 types ordered list and unordered list  -->
+ <!-- First we will go for ordered list  -->
+ <!-- A. Here it is a defult list starting from 1 to .....    -->
+<ol > 
+    <li> Onion</li>    
+    <li> Apple</li>   
+    <li> Mango</li>   
+    <li> Guava</li>   
+    <li> Pomogranade</li>   
+</ol>
+<!-- B. This is ordered list but starting with A/a so we will use a attribute  -->
+<ol type="A">
+    <li> Orange</li>
+    <li> Apple </li>
+    <li> Grapes</li>
+</ol>
+<hr>
+<!-- Then comes the unordered list  -->
+<ul>
+    <li> Apple</li>
+    <li> Mango</li>
+    <li> Grapes </li>
+    <li> Banana</li>
+</ul>
+<!-- Now we can use nesting to create dynamic lists  -->
+<ol> 
+    <li> Newspapers</li>
+    <!-- NOw we will create a new list within this list which will act as a sub list  -->
+    <ol> 
+        <li> Hindustan times </li>
+        <li> Times of india </li>
+        <li> The hindu </li>
+    </ol>
+
+</ol>
+
+
+<!-- Now its time for some table tag  -->
+<caption> Table </caption>    <!-- used to give name to table -->
+<table border="5" cellpadding="5" cellspacing="6"> 
+    <!-- attributes used border and cellpadding - cell pading mean size of box of data and cell spacing means space between cells -->
+    <!-- Table is created row wise  -->
+    <tr> 
+        <th> Name</th>
+        <th> Class</th>
+        <th> Roll no </th>
+        <!-- table heading is <th> tag -->
+    </tr>
+    <!-- Now come rowspan and colspan  -->
+
+<tr>
+<!-- rowspan is used to combine rows together  -->
+<td rowspan="2">aman</td>
+<td> mathur</td>
+<td> 102</td>
+</tr>
+<tr>
+    <td> Ankur</td>
+    <td> wariku</td>
+</tr>
+</table>
+
+<!-- Now one of the imporatant topic of html Form tag   -->
+<br>
+
+<form action="/action.php">
+    <!-- Form has multiple elements  -->
+    <!-- 1. Input element  -->
+    <input type ="text" placeholder="Write your name">
+    <br>
+    <!-- Input value can be text or number or other format of data and placeholder is basically a type of watermark describing the text that will appear on the box.  -->
+    <input type="password" placeholder="password">
+    <br>
+    <input type="Radio" value="CLass 11th" name="Sumit"> Class 11th
+     <br> 
+    <input type="radio" value="Class 12th" name="Sumit"> CLass 12th
+    <br> 
+    <!-- Class and id used for group and individuals  -->
+     <!-- Watch vedio again  -->
+     <!-- Now check box for multiple options  -->
+     <input type ="Checkbox" value="Maths" name="subject"> MAths 
+     <br>
+     <input type ="checkbox" value="Science" name="subject"> Science
+     <br>
+    <!-- Now for drop downs in the form we use following tag  -->
+    Select your course
+    <select name="Course"> course
+        <option> BBA</option>
+        <option> B.COM </option>
+    </select>
+    <!-- last but not the least  -->
+    <br>
+    <input type="submit" name="submit">
+</form>
+<!-- Iframe tag to display other website on our site  -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>
